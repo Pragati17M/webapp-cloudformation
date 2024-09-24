@@ -116,7 +116,7 @@ Resources:
       SecurityGroupIds:
         - !Ref WebServerSecurityGroup
       SubnetId: !Ref PublicSubnet
-      ImageId: ami-0c55b159cbfafe1f0  # Amazon Linux 2023 AMI
+      ImageId: ami-0ebfd941bbafe70c6  # Amazon Linux 2023 AMI
       UserData:
         Fn::Base64: |
           #!/bin/bash
